@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img id="logo" src="Images/logoo.png" alt="Pistachio Cups Logo">
+            <ul class="nav-links">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="header-extras">
+                <input type="text" placeholder="Search..." class="search-bar">
+                <img src="Images/shopping-cart.png" alt="Cart" class="cart-icon">
+            </div>
+        </nav>
+    </header>
+    
+    <div class="full">
+        
+            <form method="post" class="form1">
+                <fieldset class="field">
+                    <p class="loginText"> Login </p>
+                    
+                    <label class="login" for="loginEmail"> Enter Your Email </label>
+                    <input id="loginEmail" type="email" placeholder="example@gmail.com"/>
+                    <br/>
+                    
+                    <label class="login" for="loginPass"> Enter the Password </label>
+                    <input id="loginPass" type="password" placeholder="example123"/>
+                    <br/>
+                    <button class="buttonLogin" type="submit"> Login </button>
+                </fieldset>
+
+            </form>
+
+    </div>
+
+    <footer>
+        <div>
+            <!-- Newsletter Section -->
+            <p>Subscribe to our newsletter:</p>
+            <form class="newsletter">
+                <input type="emailFooter" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+    
+            <!-- Social Media Links -->
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com/pistachio.cups?igsh=YnFhcTVkZDR0dGl1" target="_blank">Instagram</a> |
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            </div>
+    
+            <!-- Footer Text -->
+            <p>Store Hours: Sun-Fri, 9:00 AM - 6:00 PM</p>
+            <p>&copy; 2024 Pistachio Cups Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
